@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    onPress={[Function]}
+  >
+    Your boost 
+    100
+     
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        for 
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#444",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        some title
+      </Text>
+    </Text>
+     was rejected for 
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "color": "#444",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      someChannel
+    </Text>
+     
+    
+    . Your points have been credited back to your wallet.
+  </Text>
+</View>
+`;
